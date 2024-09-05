@@ -6,13 +6,22 @@ import 'package:mello/quiz_questions.dart';
 class Quiz extends StatelessWidget{
   const Quiz({super.key});
 // a quiz
-  @override
-  Widget build(BuildContext context){
-   return Scaffold(
-    backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-    body:const QuizBody());
+   @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("assets/images/background_splash.png"), 
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: const QuizBody(),
+      ),
+    );
   }
 }
+
 
 class QuizBody extends StatefulWidget{
   const QuizBody({super.key});
@@ -61,7 +70,7 @@ _showResult();
     showDialog(
     context: context,
     builder: (_)=>AlertDialog(
-title: const Text("Quiz finished! Here's what you got!",style: TextStyle(fontSize: 24,fontFamily: 'Overpass',color: Colors.green)),
+title: const Text("Here's what you got!",style: TextStyle(fontSize: 24,fontFamily: 'Overpass',color: Color.fromARGB(255, 17, 62, 18))),
 content: Text(result),
 actions: [
   TextButton(onPressed: (){
@@ -71,7 +80,7 @@ actions: [
   // int britishcatscore=0;
   // int cairocatscore=0;
     });
-  }, child: const Text("Restart?"))
+  }, child: const Text("Restart?",style:TextStyle(fontSize:15,fontFamily: 'Overpass',color:Colors.green,fontWeight: FontWeight.bold)))
 ],
     )
   );

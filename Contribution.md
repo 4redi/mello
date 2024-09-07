@@ -4,7 +4,7 @@ Tips on contributing to ```Mello```
 
 1) Open an issue on the ```issue``` section/tab
 2) Write the issue's description, explaining why and how you want it to be solved (providing an image is optional, provide one if anything in the app isn't working properly)
-3) Fork the repo and clone it, commands are given in the [README.MD](README.MD) in the ```Testing the app 📱```
+3) Fork the repo and clone it, commands are given in the [README.MD](README.MD) in the ```Testing the app 📱``` section.
 4) Optionally, select Copy the DEFAULT branch only.
 5) Adding a feature:
 - Write the code of the feature you want to add

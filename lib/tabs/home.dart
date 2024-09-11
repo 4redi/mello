@@ -11,17 +11,17 @@ class Home extends StatelessWidget {
         body: ListView(
       children: <Widget>[
         _buildCards(
-            Texts.loremipsum,imagePath: 'assets/images/cat1.png', gradient:const LinearGradient(colors:  [ Color.fromARGB(255, 238, 187, 183), Color.fromARGB(255, 183, 207, 226)],) ),
+            Texts.SiameseCat,imagePath: 'assets/images/cat1.png', gradient:const LinearGradient(colors:  [ Color.fromARGB(255, 238, 187, 183), Color.fromARGB(255, 183, 207, 226)],) ),
         _buildCards(
-         Texts.loremipsum,imagePath: 'assets/images/cat2.png', gradient:const LinearGradient(colors: [ Color.fromARGB(255, 239, 188, 205), Color.fromARGB(255, 217, 169, 225)])),
+         Texts.CairoCat,imagePath: 'assets/images/cat2.png', gradient:const LinearGradient(colors: [ Color.fromARGB(255, 239, 188, 205), Color.fromARGB(255, 217, 169, 225)])),
         _buildCards(
-          Texts.loremipsum,imagePath: 'assets/images/cat3.png',gradient: const LinearGradient(colors: [ Color.fromARGB(255, 203, 228, 233), Color.fromARGB(255, 203, 225, 210)])),
+          Texts.SphynxCat,imagePath: 'assets/images/cat3.png',gradient: const LinearGradient(colors: [ Color.fromARGB(255, 203, 228, 233), Color.fromARGB(255, 203, 225, 210)])),
         _buildCards(
-           Texts.loremipsum,imagePath: 'assets/images/cat4.png',gradient:const  LinearGradient(colors: [ Color.fromARGB(255, 225, 230, 189), Color.fromARGB(255, 155, 166, 212)])),
+           Texts.BritishShorthair,imagePath: 'assets/images/cat4.png',gradient:const  LinearGradient(colors: [ Color.fromARGB(255, 225, 230, 189), Color.fromARGB(255, 155, 166, 212)])),
         _buildCards(
-           Texts.loremipsum,imagePath: 'assets/images/cat5.png',gradient:const LinearGradient(colors: [ Color.fromARGB(255, 226, 205, 201), Color.fromARGB(255, 212, 168, 187)])),
+           Texts.PersianCat,imagePath: 'assets/images/cat5.png',gradient:const LinearGradient(colors: [ Color.fromARGB(255, 226, 205, 201), Color.fromARGB(255, 212, 168, 187)])),
         _buildCards(
-           Texts.loremipsum,imagePath: 'assets/images/cat1.png',gradient:const LinearGradient(colors: [ Color.fromARGB(255, 228, 195, 231), Color.fromARGB(255, 170, 155, 223)])),
+           Texts.SiameseCat,imagePath: 'assets/images/cat1.png',gradient:const LinearGradient(colors: [ Color.fromARGB(255, 228, 195, 231), Color.fromARGB(255, 170, 155, 223)])),
 
         //per more gradients nis nga posht, per more crds nga siper
       ],
